@@ -11,6 +11,8 @@ class Calculator {
 
   int minOne(int value) => value - 1;
 
+  int minMore(int value, int min) => value - min;
+
   final sc = StringsCheck();
 
   int getStringLength() {
